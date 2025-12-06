@@ -42,7 +42,7 @@ const App: React.FC = () => {
   return (
     // Updated background to a softer, more modern gradient
     <div className="min-h-screen bg-[#FDFBF7] relative overflow-hidden flex flex-col items-center">
-      
+
       {/* Abstract Background Shapes */}
       <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-rose-200 rounded-full mix-blend-multiply filter blur-[80px] opacity-40 animate-blob pointer-events-none"></div>
       <div className="fixed top-[20%] right-[-10%] w-[50%] h-[50%] bg-indigo-200 rounded-full mix-blend-multiply filter blur-[80px] opacity-40 animate-blob animation-delay-2000 pointer-events-none"></div>
@@ -75,9 +75,9 @@ const App: React.FC = () => {
       <footer className="w-full py-6 text-center text-xs text-gray-400 font-medium relative z-10 bg-white/30 backdrop-blur-sm border-t border-white/20">
         <div className="flex flex-col gap-2 items-center">
           <p>© Flirting Ability Test.</p>
-          <a 
-            href="https://blog.naver.com" 
-            target="_blank" 
+          <a
+            href="https://kr.mini-bell.com"
+            target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 hover:text-rose-500 transition-colors"
           >
