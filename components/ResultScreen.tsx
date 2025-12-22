@@ -139,7 +139,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ score, resultType, onRestar
       <div className="glass rounded-2xl p-6 border border-white/60 shadow-lg relative overflow-hidden">
         {/* Promotional Banner (Ad) */}
         <a
-          href="https://usj.mini-bell.com" /* Placeholder URL, assuming similar pattern or will update */
+          href="https://usj-osaka.mini-bell.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="block mb-6 group relative overflow-hidden rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 p-1 shadow-md hover:shadow-lg transition-all hover:scale-[1.01]"
