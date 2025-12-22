@@ -137,6 +137,24 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ score, resultType, onRestar
 
       {/* Solution Section (Prescription) */}
       <div className="glass rounded-2xl p-6 border border-white/60 shadow-lg relative overflow-hidden">
+        {/* Promotional Banner (Ad) */}
+        <a
+          href="https://usj.mini-bell.com" /* Placeholder URL, assuming similar pattern or will update */
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block mb-6 group relative overflow-hidden rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 p-1 shadow-md hover:shadow-lg transition-all hover:scale-[1.01]"
+        >
+          <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          <div className="relative bg-white/10 backdrop-blur-sm rounded-lg p-3 flex items-center justify-between">
+            <div className="flex flex-col text-white">
+              <span className="text-[10px] bg-white/20 px-1.5 py-0.5 rounded w-fit font-semibold mb-1">광고</span>
+              <span className="font-bold text-sm">🎢 오사카 USJ, 썸남썸녀랑 간다면?</span>
+              <span className="text-xs text-blue-100 opacity-90">여행 가이드 & 꿀팁 보러가기 👉</span>
+            </div>
+            <div className="text-2xl animate-bounce-slow">🎡</div>
+          </div>
+        </a>
+
         {/* Decorative Background */}
         <div className="absolute top-0 right-0 w-32 h-32 bg-rose-100 rounded-full mix-blend-multiply filter blur-2xl opacity-50 -translate-y-1/2 translate-x-1/2"></div>
 
