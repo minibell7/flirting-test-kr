@@ -76,13 +76,13 @@ const App: React.FC = () => {
         <div className="flex flex-col gap-2 items-center">
           <p>© Flirting Ability Test.</p>
           <a
-            href="https://mini-bell.com"
+            href="https://kr.mini-bell.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 hover:text-rose-500 transition-colors"
           >
             <span>Made by </span>
-            <span className="underline underline-offset-2 decoration-rose-300">Homepage</span>
+            <span className="underline underline-offset-2 decoration-rose-300">kr.mini-bell.com</span>
             <span>🚀</span>
           </a>
         </div>
